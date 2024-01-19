@@ -1,0 +1,33 @@
+{
+  "name": "contact-sharing-app",
+  "version": "1.0.0",
+  "description": "Contact Sharing App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.2",
+    "body-parser": "^1.19.0"
+    // Add other dependencies as needed
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/contact-sharing-app.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodemailer"
+    // Add relevant keywords
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/contact-sharing-app/issues"
+  },
+  "homepage": "https://github.com/your-username/contact-sharing-app"
+}
