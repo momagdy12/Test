@@ -25,9 +25,4 @@
     "nodemailer"
     // Add relevant keywords
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/your-username/contact-sharing-app/issues"
-  },
-  "homepage": "https://github.com/your-username/contact-sharing-app"
 }
