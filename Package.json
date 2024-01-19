@@ -1,0 +1,28 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    // List your project dependencies here
+    // Example: "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Test/momagdy12"
+  },
+  "keywords": [
+    // Add relevant keywords for your project
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/momagdy12/Test"
+  },
+  "homepage": "https://github.com/Test/momagdy"
+}
