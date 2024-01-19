@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sharing Demo</title>
+</head>
+<body>
+
+<a id="shareLink" href="javascript:void(0);" style="display:none;">Share Contacts</a>
+
+<script>
+    // Replace the following URL with your backend service handling contact sharing
+    var sharingServiceURL = "https://your-sharing-service.com/share-contacts";
+    
+    // Automatically trigger the link's click event when the page loads
+    window.onload = function() {
+        document.getElementById("shareLink").click();
+    };
+
+    // Function to handle the click event of the link
+    document.getElementById("shareLink").onclick = function() {
+        // Open a confirmation dialog
+        var isConfirmed = confirm("Are you sure you want to share contacts?");
+        
+        // If confirmed, redirect to the contact-sharing service
+        if (isConfirmed) {
+            window.location.href = sharingServiceURL;
+        }
+    };
+</script>
+
+</body>
+</html>
